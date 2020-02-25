@@ -1,0 +1,58 @@
+Idea/Approach details:
+
+Existing educational videos, on Youtube, Byju's, Khan Academy and other such educational platforms enable students to learn from top-quality teachers over large distances. This allows students to learn, but it doesn't help in visualization, which is an essential aspect for complete, comprehensive, application-oriented learning.
+We aim to create a web-based system, that allows people to fully interact with videos, through a custom video+3d model format. 
+----------------------------
+
+Solution:
+
+This idea consists of two parts:
+
+1- A video player, that plays videos of this format. Viewers can interact with the video, rotate components inside, add more components etc. while the video plays. They can also modify the component's size, or make it interact in different ways. There will be a normal video on the left of the screen, and a fully interactive  video on the right, which acts as a visual model and a playground of sorts.
+We have a normal video on the left, as it would be unwise to ignore current videos which already explain almost every single concept available. having a video on the left, and a programmed+interactive model on the right, will allow students to learn and grasp concepts from existing videos, while using the model to comprehensively understand the concept.
+
+2- A web-suite to allow creators/teachers to create videos of this format in an easy, non-programmatic way, which they can then upload/share for others to view.
+
+The format requires 3d models, a lot of which are available for free. But sometimes, we may not find a model we need. hence we need to create a web interface to create such models as well. As of now, we are using TinkerCAD, by Autodesk, which is a free online 3d model creation tool, in order to allow creators to create their own models and upload it.
+
+Example:
+Assume a video about an atom's structure. All current educational solutions allow students to view a non-interactive, pre-designed video, or play around with atom models, with no teacher guidance, or input.
+Our tool allows the teacher to make a video and program the model, with the atom completely interactable. You can rotate it, view it from different angles, or add more electrons to see if it'll be stable, or just follow the model as designed by the teacher.
+
+The prototype we have consists of a web page, which has a normal Youtube video on the left, and a fully interactive 3d model on the right. The model is programmed to follow a specific pattern, to mimic the video. This model is fully interactable, and is pre-programmed by us.
+
+
+----------------------------
+
+Tech Stack
+
+- WebRTC
+- Three.js
+- Godot Engine
+- Babylon.js
+- OpenGL
+- React.js
+- Vue.js
+- Firebase
+- TinkerCAD
+
+---------------------------
+Ministry/Org name:
+(pLease fill this in @Aratrika)
+
+---------------------------
+Use cases:
+
+- All STEM courses,from schools to Universities, as they require visualizations for a concrete understanding.
+- Any subject/concept that needs visualization.
+- Please fill in more @Aratrika
+
+--------------------------
+Show Stoppers
+
+- Fully interactive components, which follow a pre-programmed format that is made by the creator using an easy, simple to use, and intuitive interface. Currently, creating models which are animated require extensive knowledge of programming, which we eliminate.
+- Allow users to use the vast catalogue of existing videos to accompany their 3d video.
+- A complete platform to create and display such videos.
+- 3D models can be really heavy to load on web browsers and servers, hence we are offloading all rendering to the local system, increasing performance, and responsiveness.
+
+
